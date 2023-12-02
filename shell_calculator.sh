@@ -23,22 +23,21 @@ do
 	echo "Choose number 2"
 	read B
 	echo -e '\n'
-	echo "Result:"
 	if [ $OP == 1 ]
 	then
-		echo `expr $A + $B`
+		echo "$A + $B =" `expr $A + $B`
 	elif [ $OP == 2 ]
 	then
-		echo `expr $A - $B`
+		echo "$A - $B =" `expr $A - $B`
 	elif [ $OP == 3 ]
 	then
-		echo `expr $A \* $B`
+		echo "$A * $B =" `expr $A \* $B`
 	elif [ $OP == 4 ]
 	then
-		echo `expr $A / $B`
+		echo "$A / $B =" `expr $A / $B`
 	elif [ $OP == 5 ]
 	then
-		echo `expr $A % $B`
+		echo "$A % $B =" `expr $A % $B`
 	fi
 	echo -e '\n'
 	echo "Continue with another operation?" 
@@ -46,3 +45,5 @@ do
 	echo "0: End" 
 	read CONT
 done
+
+clear
