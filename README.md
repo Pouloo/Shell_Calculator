@@ -9,9 +9,9 @@
 
 ## Techincal requirements
 - A working computer!
-- Your command line interpreter of choice
+- Your command line interpreter of choice.
 - A proper text editor (In case you want to contribute).
-Some suggestions would be VScode, Notepad++ or Sublime. 
+Some suggested editors are VScode, Notepad++ and Sublime. 
 
 ## Description
 A simple implementation of a bash scripted calculator that lets the user choose one type
