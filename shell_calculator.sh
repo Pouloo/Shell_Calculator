@@ -10,9 +10,8 @@ do
 	echo "2: Substraction"
 	echo "3: Multiplication"
 	echo "4: Divison"
-	echo "5: Division (Mod)"
 	read OP
-	if [ $OP -gt 5 ]
+	if [ $OP -gt 4 ] || [ $OP -lt 1 ]
 	then
 		echo "Invalid input"
 		sleep 0.5
@@ -34,10 +33,8 @@ do
 		echo "$A * $B =" `expr $A \* $B`
 	elif [ $OP == 4 ]
 	then
-		echo "$A / $B =" `expr $A / $B`
-	elif [ $OP == 5 ]
-	then
-		echo "$A % $B =" `expr $A % $B`
+		echo "(Quotient) $A / $B =" `expr $A / $B`
+		echo "(Remainder) =" `expr $A % $B`
 	fi
 	echo -e '\n'
 	echo "Continue with another operation?" 
