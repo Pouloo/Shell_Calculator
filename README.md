@@ -1,11 +1,12 @@
 # Shell Calculator
 
 ## Shell script type
-- [x] Bash
-- [ ] Dash
+- [x] Bourne Again Shell (BASH)
+- [ ] Debian Almquist shell (DASH)
 - [ ] C Shell
 - [ ] Z Shell
 - [ ] Bourne Shell
+- [ ] Powershell
 
 ## Techincal requirements
 - A working computer!
